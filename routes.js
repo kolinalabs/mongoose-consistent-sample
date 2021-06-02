@@ -1,5 +1,11 @@
 const router = require('express').Router()
-const { category, product, order, transaction } = require('./controllers')
+const {
+    category,
+    product,
+    order,
+    transaction,
+    promotion,
+} = require('./controllers')
 
 // categories
 router.get('/categories', category.index)
@@ -19,5 +25,9 @@ router.delete('/orders/:id', order.delete)
 // transactions
 router.get('/transactions', transaction.index)
 router.post('/transactions', transaction.create)
+
+// promotions
+router.get('/promotions', promotion.index)
+router.post('/promotions', promotion.create)
 
 module.exports = router

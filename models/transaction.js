@@ -9,6 +9,13 @@ const TransactionSchema = new mongoose.Schema(
             type: Number,
             default: 1,
         },
+        /**
+         * Behaviors
+         * set_null: Field is set to null (sourceType is set to default value > "None")
+         * cascade: This document is removed
+         * restrict: ConstraintError is dispatched
+         * {Function}: Callback executed
+         */
         source: {
             type: mongoose.Schema.Types.ObjectId,
             refPath: 'sourceType',

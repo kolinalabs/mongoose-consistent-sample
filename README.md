@@ -14,6 +14,7 @@ Download it and follow the steps below to analyze the behaviors and options supp
 - Install dependencies ```npm install``` (or yarn)
 - Runnig app with ```npm start``` command
 - Import ```Insomnia.json``` file into Insomnia (if used)
+- Each model has behavior descriptions of the possible configurations
 
 [travis_img]: https://travis-ci.com/kolinalabs/mongoose-consistent.svg?branch=master
 [travis_url]: https://travis-ci.com/kolinalabs/mongoose-consistent
