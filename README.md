@@ -4,7 +4,7 @@ Foreign reference check across collections with mongoose.
 
 [![travis][travis_img]][travis_url] [![npm][npm_img]][npm_url] [![downloads]][downloads]
 
-This is a reference project for using the [@kolinalabs/mongoose-consistent](npm_url) plugin.
+This is a reference project for using the [@kolinalabs/mongoose-consistent](https://www.npmjs.com/package/@kolinalabs/mongoose-consistent) plugin.
 
 Download it and follow the steps below to analyze the behaviors and options supported by the plugin.
 
