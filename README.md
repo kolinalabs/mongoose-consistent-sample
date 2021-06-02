@@ -6,12 +6,12 @@ Foreign reference check across collections with mongoose.
 
 This is a reference project for using the [@kolinalabs/mongoose-consistent](https://www.npmjs.com/package/@kolinalabs/mongoose-consistent) plugin.
 
-Download it and follow the steps below to analyze the behaviors and options supported by the plugin.
-
 > Note: This is an extremely simplified project, with the sole purpose of presenting the plugin's functionalities.
 You will not find here advanced validators and other types of configurations that are not part of the aforementioned objective.
 
 ## SETUP
+
+Download it and follow the steps below to analyze the behaviors and options supported by the plugin:
 
 - Copy ```.env.dist``` file to ```.env``` and configure env vars
 - Install dependencies ```npm install``` (or yarn)
