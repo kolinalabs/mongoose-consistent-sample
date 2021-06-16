@@ -19,6 +19,7 @@ const TransactionSchema = new mongoose.Schema(
         source: {
             type: mongoose.Schema.Types.ObjectId,
             refPath: 'sourceType',
+            onDelete: 'restrict'
         },
         sourceType: {
             type: String,

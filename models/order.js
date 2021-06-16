@@ -15,6 +15,7 @@ const ItemSchema = new mongoose.Schema({
     product: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Product',
+        onDelete: 'set_null'
     },
     /**
      * Behaviors

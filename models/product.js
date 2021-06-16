@@ -27,7 +27,7 @@ const ProductSchema = new mongoose.Schema(
         category: {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Category',
-            // onDelete: 'restrict',
+            onDelete: 'restrict',
             /**
              * If you want to control the behavior of an action after counting,
              * you can use a function instead of a name.

@@ -24,7 +24,7 @@ const PromotionSchema = new mongoose.Schema(
             {
                 type: mongoose.Schema.Types.ObjectId,
                 ref: 'Product',
-                // onDelete: 'restrict',
+                onDelete: 'restrict',
             },
         ],
     },

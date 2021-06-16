@@ -8,7 +8,7 @@ const consistent = require('@kolinalabs/mongoose-consistent')
  * @todo install plugin before models
  */
 mongoose.plugin(consistent, {
-    // actionDefault: 'cascade',
+    actionDefault: 'cascade',
     // actionKey: 'on_delete'
 })
 
